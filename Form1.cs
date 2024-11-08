@@ -27,7 +27,7 @@ namespace LoginFormExmaple
             }
 
             button1.Click += button1_Click;
-            textPassword.UseSystemPasswordChar = true; // Makes the password field show asterisks
+            textPassword.UseSystemPasswordChar = true; // sifre formasinda kod yazilsin deye istifade olunur
         }
 
         private void button1_Click(object sender, EventArgs e)
